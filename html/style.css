@@ -1520,7 +1520,7 @@ pre {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 60px; }
   .container:before,
   .container:after {
     content: " ";
@@ -6311,8 +6311,8 @@ blockquote {
   .banner-v1 .banner-caption-v1 {
     padding-bottom: 30px; }
     .banner-v1 .banner-caption-v1 h1 {
-      font-size: 100px;
-      color: #fff;
+      font-size: 10px;
+      /*color: #fff;*/
       font-family: "Great Vibes", cursive;
       text-align: center; }
       .banner-v1 .banner-caption-v1 h1 img {
@@ -6329,7 +6329,7 @@ blockquote {
       max-width: 80%;
       margin: 0 auto; }
     .banner-v1 .banner-caption-v1 p {
-      font-size: 15px;
+      font-size: 10px;
       color: #98a9b6;
       text-align: center; }
       @media (min-width: 992px) {
@@ -7321,7 +7321,7 @@ blockquote {
   .farmer-grid {
     width: 100%; } }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 300px) {
   .image-banner-2, .image-banner-1, .text-1, .main-header-v1 .banner-caption-text h2 {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -8411,3 +8411,14 @@ blockquote {
 @media (min-width: 992px) {
   .withe-logo {
     margin-top: -200px; } }
+
+.text-1 {
+  color: green;
+}
+
+.text-2 {
+  color: yellow;
+}
+.text-3 {
+  color: red;
+}
