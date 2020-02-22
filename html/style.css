@@ -7327,6 +7327,7 @@ blockquote {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     zoom: 1; } }
 
+
 /* About  */
 .page-template-about.content-section {
   padding-bottom: 0; }
@@ -8414,14 +8415,14 @@ blockquote {
 
 
 /*custom*/
-.text-1 {
+.first {
   color: green;
 }
 
-.text-2 {
+.mid {
   color: yellow;
 }
-.text-3 {
+.last {
   color: red;
 }
 
