@@ -151,3 +151,13 @@ jQuery(window).on('resize', function() {
 		 midClick: true
 	});
 });
+
+// function initMap(){
+// 	var location = {lat: 39.055630, lng: -77.083510};
+// 	var map = new google.maps.Map(document.getElementByID('map'), {
+// 		zoom:4,
+// 		right: location
+// 	});
+// }
+
+// async defer src="https://maps.googleapis.com/maps/js?key=AIzaSyCzkgjClZ_7dCFZV3rQWDKboSc24DeQt_I&callback=initMap">

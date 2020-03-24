@@ -6709,7 +6709,7 @@ blockquote {
     margin-top: 15px; }
   @media (min-width: 992px) {
     .footer-top {
-      padding-top: 120px;
+      padding-top: 0px;
       padding-bottom: 120px; } }
 
 .footer-bottom {
@@ -6823,8 +6823,8 @@ blockquote {
   padding-bottom: 50px; }
   @media (min-width: 992px) {
     .content-section {
-      padding-top: 120px;
-      padding-bottom: 120px; } }
+      padding-top: 60px;
+      padding-bottom: 80px; } }
 
 .btn-primary:before {
   background-color: #5b0503; }
@@ -6837,7 +6837,8 @@ blockquote {
 
 .content-newsletter {
   background-attachment: fixed;
-  background: url("images/homepage/paralaximage.jpg") center no-repeat; }
+  background: url("images/main/cattering.jpg") center no-repeat; 
+  height: 550px;}
   .content-newsletter h2 {
     color: #fff; }
   .content-newsletter p {
@@ -6961,9 +6962,15 @@ blockquote {
 /* Homepage  */
 @media (min-width: 992px) {
   .content-1 .content-block {
-    margin-top: 0px; }
+    margin-top: 0px;
+     }
   .content-1 p {
-    margin-top: 30px; } }
+    margin-top: 30px; 
+    margin-right:120px;
+    margin-left:0px; 
+    text-align: justify;
+    font-size: 16px
+    color:#040404;} }
 
 .content-1 .col-md-8 {
   position: relative;
@@ -7025,7 +7032,7 @@ blockquote {
     display: block; } }
 
 .content-section.content-4 {
-  background: url(images/homepage/farming-tipps-back.jpg) no-repeat center #8f9595;
+  background: url(images/main/herbs-bg2.jpg) no-repeat center #8f9595;
   background-size: cover; }
   .content-section.content-4 .heading p, .content-section.content-4 .heading h2 {
     color: #fff; }
@@ -7217,7 +7224,7 @@ blockquote {
       width: 100%; } }
 
 .product-v1 {
-  background: #fff;
+  background: #faebd7;
   text-align: center;
   margin-bottom: 25px; }
   .product-v1 .description {
@@ -7709,12 +7716,18 @@ blockquote {
             transform: scale(1.1); }
 
 .product-list-v1 h3 {
-  font-size: 30px; }
+  padding-left: 50px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 20px;}
 
 .product-list-v1 .box-background {
   padding: 15px;
   display: block;
-  overflow: hidden; }
+  overflow: hidden; 
+  text-align: center;
+  background-color: #ffa500;
+  max-height: 70px;}
 
 .product-list-v1 .price {
   font-family: "Old Standard TT", serif;
@@ -7756,7 +7769,8 @@ blockquote {
   .product-list-v1 .options .add-to-wishlist {
     font-size: 11px; }
   .product-list-v1 .box-background {
-    padding: 30px; } }
+    padding: 30px; 
+    resize: vertical;} }
 
 @media (min-width: 1200px) {
   .product-list-v1 .options .add-to-wishlist {
@@ -8438,3 +8452,8 @@ blockquote {
   height: 100%;
   object-fit: cover;
 }
+
+/*#map {
+  height: 500px;
+  width: 100%;
+}*/
